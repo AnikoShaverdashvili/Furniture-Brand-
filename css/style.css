@@ -112,7 +112,7 @@ body {
 }
 
 .slider {
-  height: fit-content;
+  height: 722px;
   display: block;
   position: relative;
   width: 100%;
@@ -138,7 +138,6 @@ body {
   bottom: 38px;
   right: 0px;
   font-size: 18px;
-  height: 89px;
 }
 .bottom-right h3 {
   font-size: 18px;
