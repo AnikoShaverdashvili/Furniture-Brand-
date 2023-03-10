@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Donegal+One&display=swap");
+
 :root {
   --background: #11556a;
   --white: #ffffff;
@@ -8,6 +10,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 100px;
+  font-family: "Donegal One", serif;
   /* overflow-x: hidden; */
 }
 .dropbtn {
@@ -287,3 +290,74 @@ body {
     width: 12px;
   } */
 }
+
+/* start info holder */
+.info-holder {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  background-color: #d9d9d933;
+  margin-bottom: 35px;
+  padding: 36px 0px;
+  font-weight: 400;
+}
+
+.info {
+  display: flex;
+}
+.info h3 {
+  color: #0d4759;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.info span {
+  margin-top: 5px;
+  color: #0d4759;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.text-holder {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+  align-self: flex-start;
+}
+
+/* end info section */
+
+/* space for future collectionsection */
+
+/* start footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--background);
+  padding: 52px 0px;
+}
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-ul h3 {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+}
+.footer-li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.footer-li a {
+  color: #ffffff;
+}
+.fab {
+  color: #ffffff;
+  margin-right: 5px;
+  margin-top: 40px;
+  width: 37px;
+  height: 37px;
+}
+/* end footer */
