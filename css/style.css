@@ -112,7 +112,7 @@ body {
 }
 
 .slider {
-  height: 722px;
+  height: fit-content;
   display: block;
   position: relative;
   width: 100%;
@@ -120,14 +120,15 @@ body {
   overflow: hidden;
 }
 .top-left {
+  position: relative;
+  height: 90%;
   padding: 63px 50px;
   background-color: #ffffffbf;
-  width: 30%;
+  width: 40%;
   border-radius: 4px;
   position: absolute;
   top: 0px;
   left: 16px;
-  height: 90%;
 }
 
 .bottom-right {
@@ -152,6 +153,7 @@ body {
   font-size: 16px;
 }
 .top-left p {
+  font-weight: 400;
   font-size: 18px;
   width: 100%;
   text-align: left;
@@ -162,7 +164,7 @@ body {
 .top-left h1 {
   width: 100%;
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 62.5px;
   color: #0a3b4b;
   text-align: left;
@@ -170,9 +172,9 @@ body {
   margin-bottom: 30px;
 }
 .image-btn {
-  margin-top: 42px;
   position: absolute;
   left: 50%;
+  bottom: 20%;
   transform: translateX(-50%);
   color: #ffffff;
   font-size: 30px;
