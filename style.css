@@ -65,13 +65,11 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--background);
-  padding-right: 130px;
-  padding-left: 130px;
   padding-bottom: 32px;
   padding-top: 22px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: 100;
 }
 .search {
@@ -188,6 +186,7 @@ body {
 .slider__slide img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .slider__nav-button {
@@ -261,8 +260,8 @@ body {
     height: 40px;
     width: 40px;
   }
-  .slider__navlink {
+  /* .slider__navlink {
     height: 12px;
     width: 12px;
-  }
+  } */
 }
