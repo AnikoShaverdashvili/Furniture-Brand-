@@ -116,24 +116,46 @@ body {
   background-color: white;
   overflow: hidden;
 }
-.top-right {
+.top-left {
   padding: 63px 50px;
   background-color: #ffffffbf;
-  width: 45%;
+  width: 30%;
   border-radius: 4px;
   position: absolute;
-  top: 8px;
+  top: 0px;
   left: 16px;
-  height: 587px;
+  height: 90%;
 }
-.top-right p {
+
+.bottom-right {
+  padding: 15px;
+  background-color: #ffffffbf;
+  position: absolute;
+  bottom: 38px;
+  right: 0px;
+  font-size: 18px;
+  height: 89px;
+}
+.bottom-right h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.bottom-right p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.bottom-right span {
+  font-size: 16px;
+}
+.top-left p {
   font-size: 18px;
   width: 100%;
   text-align: left;
   margin-top: 30px;
 }
 
-.top-right h1 {
+.top-left h1 {
   width: 100%;
   font-size: 50px;
   font-weight: 400;
