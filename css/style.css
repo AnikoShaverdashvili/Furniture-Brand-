@@ -296,6 +296,13 @@ body {
 .info {
   display: flex;
 }
+.info svg {
+  background-color: #11556abf;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  padding: 10px;
+}
 .info h3 {
   color: #0d4759;
   font-size: 16px;
