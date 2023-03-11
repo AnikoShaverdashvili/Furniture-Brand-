@@ -1,4 +1,4 @@
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1315px) {
   .top-left h1 {
     font-size: 35px;
     line-height: 45px;
@@ -28,11 +28,25 @@
     font-size: 10px;
   }
   .slider {
-    height: 600px;
+    height: 575px;
   }
 }
 
 @media screen and (max-width: 1017px) {
+  .bottom-right {
+    padding: 10px;
+    bottom: 25px;
+    font-size: 12px;
+  }
+  .bottom-right h3 {
+    font-size: 12px;
+  }
+  .bottom-right p {
+    font-size: 10px;
+  }
+  .bottom-right span {
+    font-size: 10px;
+  }
   .image-btn {
     font-size: 15px;
     bottom: 10%;
@@ -44,7 +58,6 @@
   }
   .top-left p {
     font-size: 12px;
-    margin-top: 7px;
   }
   .slider__navlink {
     width: 7px;
@@ -52,6 +65,11 @@
   }
   .slider {
     height: 465px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .top-left p {
+    margin-top: 5px;
   }
 }
 @media screen and (max-width: 670px) {
@@ -88,6 +106,10 @@
   .slider {
     height: 400px;
   }
+  .slider__nav-button {
+    height: 50px;
+    width: 50px;
+  }
 }
 @media screen and (max-width: 581px) {
   .top-left {
@@ -110,6 +132,10 @@
   }
   .slider {
     height: 300px;
+  }
+  .slider__nav-button {
+    height: 30px;
+    width: 30px;
   }
 }
 @media screen and (max-width: 430px) {
@@ -136,5 +162,9 @@
   }
   .image-btn {
     font-size: 5px;
+  }
+  .slider__nav-button {
+    height: 15px;
+    width: 15px;
   }
 }
