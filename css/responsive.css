@@ -3,7 +3,11 @@
     height: 650px;
   }
 }
-@media screen and (max-width: 1315px) {
+@media screen and (max-width: 1330px) {
+  .image-btn {
+    font-size: 15px;
+    bottom: 10%;
+  }
   .top-left h1 {
     font-size: 35px;
     line-height: 45px;
@@ -16,7 +20,6 @@
     padding: 18px 30px;
     font-size: 20px;
   }
-
   .bottom-right {
     padding: 10px;
     bottom: 30px;
@@ -33,11 +36,15 @@
     font-size: 10px;
   }
   .slider {
-    height: 575px;
+    height: 500px;
+  }
+  .category img {
+    width: 332px;
+    height: 280px;
   }
 }
 
-@media screen and (max-width: 1017px) {
+@media screen and (max-width: 1100px) {
   .bottom-right {
     padding: 10px;
     bottom: 25px;
@@ -71,13 +78,66 @@
   .slider {
     height: 465px;
   }
+
+  .category-wrapper h1 {
+    font-size: 35px;
+  }
+  .text-container p {
+    font-size: 20px;
+  }
+  .info svg {
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+  }
+  .info h3 {
+    font-size: 15px;
+  }
+  .info span {
+    font-size: 11px;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-holder {
+    margin-top: 8px;
+  }
 }
+
 @media screen and (max-width: 720px) {
   .top-left p {
     margin-top: 5px;
   }
+  .info svg {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+  .info h3 {
+    font-size: 14px;
+  }
+  .info span {
+    font-size: 10px;
+  }
 }
-@media screen and (max-width: 670px) {
+
+@media screen and (max-width: 710px) {
+  .category img {
+    width: 285px;
+    height: 240px;
+  }
+  .text-container p {
+    font-size: 15px;
+  }
+  .category-wrapper h1 {
+    font-size: 30px;
+  }
+  .category {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 676px) {
   .top-left h1 {
     font-size: 15px;
   }
@@ -115,6 +175,9 @@
     height: 50px;
     width: 50px;
   }
+  .category {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 581px) {
   .top-left {
@@ -141,6 +204,23 @@
   .slider__nav-button {
     height: 30px;
     width: 30px;
+  }
+  .text-container p {
+    font-size: 15px;
+  }
+  .category-wrapper h1 {
+    font-size: 20px;
+  }
+  .info svg {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+  }
+  .info h3 {
+    font-size: 12px;
+  }
+  .info span {
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 430px) {
@@ -171,5 +251,9 @@
   .slider__nav-button {
     height: 15px;
     width: 15px;
+  }
+  .category img {
+    width: 190px;
+    height: 160px;
   }
 }

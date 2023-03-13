@@ -12,7 +12,7 @@ body {
   padding-top: 60px;
   font-family: "Donegal One", serif;
   background-color: #ededed;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .dropbtn {
   background-color: var(--background);
@@ -345,8 +345,6 @@ body {
 }
 .category {
   position: relative;
-  width: 380px;
-  height: 330px;
   margin: 10px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -357,7 +355,8 @@ body {
 
 .category img {
   width: 380px;
-  height: 330px;
+  height: 320px;
+  max-width: 100%;
   overflow: hidden;
   transition: transform 0.5s ease;
 }
