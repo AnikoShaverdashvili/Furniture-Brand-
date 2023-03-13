@@ -11,6 +11,7 @@ body {
   height: 100%;
   padding-top: 100px;
   font-family: "Donegal One", serif;
+  background-color: #ededed;
   /* overflow-x: hidden; */
 }
 .dropbtn {
@@ -54,7 +55,6 @@ body {
 
 .nav-ul {
   display: flex;
-  align-items: center;
 }
 .form {
   width: 571px;
@@ -88,6 +88,7 @@ body {
   margin-right: 29px;
 }
 .nav-li {
+  margin-top: 12px;
   margin-right: 17px;
 }
 .btn {
@@ -325,8 +326,61 @@ body {
 
 /* end info section */
 
-/* space for future collectionsection */
+/* start categiries */
+.category-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.category-wrapper h1 {
+  color: #0d4759cc;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category {
+  position: relative;
+  width: 380px;
+  height: 330px;
+  margin: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.category-wrapper h1 {
+  margin-bottom: 10px;
+}
 
+.category img {
+  width: 380px;
+  height: 330px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+.category img:hover {
+  transform: scale(1.2);
+  filter: blur(1px);
+}
+.text-container {
+  position: absolute;
+  background-color: #11556ab2;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.text-container p {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
 /* start footer */
 .footer {
   display: flex;
