@@ -68,8 +68,8 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--background);
-  padding-bottom: 32px;
-  padding-top: 22px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
