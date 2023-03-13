@@ -197,6 +197,7 @@
 @media screen and (max-width: 581px) {
   .top-left {
     padding: 27px 25px;
+    height: 80%;
   }
   .top-left h1 {
     font-size: 15px;
