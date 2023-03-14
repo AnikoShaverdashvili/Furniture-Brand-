@@ -1,9 +1,7 @@
-@media screen and (max-width: 1600px) {
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
   .slider {
-    height: 650px;
+    height: 600px;
   }
-}
-@media screen and (max-width: 1330px) {
   .image-btn {
     font-size: 15px;
     bottom: 10%;
@@ -32,19 +30,21 @@
   .bottom-right p {
     font-size: 10px;
   }
-  .bottom-right span {
-    font-size: 10px;
-  }
-  .slider {
-    height: 500px;
-  }
+
   .category img {
     width: 332px;
     height: 280px;
   }
 }
 
-@media screen and (max-width: 1100px) {
+/* Desktop small */
+@media only screen and (max-width: 1280px) {
+  .form {
+    width: 300px;
+  }
+  .slider {
+    height: 450px;
+  }
   .bottom-right {
     padding: 10px;
     bottom: 25px;
@@ -56,113 +56,155 @@
   .bottom-right p {
     font-size: 10px;
   }
-  .bottom-right span {
-    font-size: 10px;
-  }
   .image-btn {
-    font-size: 15px;
+    font-size: 12px;
+    padding: 20px 30px;
     bottom: 10%;
   }
+  .top-left {
+    padding: 50px 30px;
+  }
   .top-left h1 {
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 2px;
   }
   .top-left p {
-    font-size: 12px;
+    font-size: 15px;
+    margin-top: 15px;
   }
+
   .slider__navlink {
     width: 7px;
     height: 7px;
   }
-  .slider {
-    height: 465px;
-  }
-
-  .category-wrapper h1 {
-    font-size: 35px;
-  }
-  .text-container p {
-    font-size: 20px;
+  .text-holder {
+    align-items: center;
   }
   .info svg {
     width: 50px;
     height: 50px;
     padding: 7px;
+    margin-bottom: 10px;
   }
+
   .info h3 {
     font-size: 15px;
   }
   .info span {
     font-size: 11px;
+    text-align: center;
   }
   .info {
     flex-direction: column;
     align-items: center;
-  }
-  .text-holder {
-    margin-top: 8px;
-  }
-  .footer {
-    padding: 30px 0px;
-  }
-  .footer-ul {
-    margin-bottom: 30px;
-  }
-  .footer-ul h3 {
-    margin-bottom: 20px;
-  }
-  .footer-li {
-    margin-bottom: 8px;
-  }
-  .fab {
-    margin-top: 20px;
+    padding: 10px;
   }
 }
-
-@media screen and (max-width: 720px) {
-  .top-left p {
-    margin-top: 5px;
-  }
-  .info svg {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-  }
-  .info h3 {
-    font-size: 14px;
-  }
-  .info span {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 710px) {
+@media only screen and (max-width: 1210px) {
   .category img {
-    width: 285px;
-    height: 240px;
+    width: 300px;
+    height: 250px;
   }
-  .text-container p {
-    font-size: 15px;
+}
+/* Tablet portrait */
+@media only screen and (max-width: 1000px) {
+  .category img {
+    width: 260px;
+    height: 220px;
   }
+  .info-holder {
+    padding: 20px 0px;
+  }
+  .form-s {
+    position: sticky;
+    top: 60px;
+    background-color: aliceblue;
+    margin-top: 7px;
+    display: flex;
+    width: 100%;
+    top: 200;
+    z-index: 1;
+  }
+  .search {
+    height: 50px;
+  }
+  .nav-ul-small {
+    margin-top: 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-ul {
+    display: flex;
+    width: 33.33%;
+    justify-content: end;
+  }
+  .container {
+    margin-top: 10px;
+  }
+
+  .nav-ul-small {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+  }
+  .logo {
+    margin: 0px;
+  }
+  .nav-li {
+    margin-left: 0px;
+    padding: 0px 5px;
+  }
+  .nav-small {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-left {
+    padding: 40px 20px;
+  }
+  .top-left h1 {
+    font-size: 20px;
+  }
+
+  .image-btn {
+    font-size: 12px;
+    bottom: 10%;
+    padding: 20px 30px;
+  }
+  .top-left h1 {
+    font-size: 25px;
+  }
+  .info-holder {
+    justify-content: space-between;
+  }
+
   .category-wrapper h1 {
     font-size: 30px;
   }
-  .category {
-    margin-bottom: 20px;
-  }
 }
-@media screen and (max-width: 676px) {
+
+/* Mobile landscape */
+@media only screen and (max-width: 700px) {
+  .slider {
+    height: 400px;
+  }
+  .top-left {
+    width: 45%;
+  }
+
   .top-left h1 {
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 20px;
   }
   .top-left p {
     font-size: 12px;
+    margin-top: 10px;
   }
   .image-btn {
-    padding: 15px 25px;
+    padding: 15px 20px;
     font-size: 12px;
-    bottom: 10%;
   }
   .bottom-right {
     padding: 5px;
@@ -183,9 +225,6 @@
     height: 5px;
   }
 
-  /* .slider {
-    height: 400px;
-  } */
   .slider__nav-button {
     height: 50px;
     width: 50px;
@@ -193,82 +232,61 @@
   .category {
     margin-bottom: 10px;
   }
-}
-@media screen and (max-width: 581px) {
-  .top-left {
-    padding: 27px 25px;
-    height: 80%;
-  }
-  .top-left h1 {
-    font-size: 15px;
-  }
-  .top-left p {
-    font-size: 10px;
-  }
-  .image-btn {
-    padding: 10px 20px;
-    font-size: 8px;
-    /* bottom: 10%; */
-  }
-  .bottom-right {
-    display: none;
-  }
-  /* .slider {
-    height: 300px;
-  } */
-  .slider__nav-button {
-    height: 30px;
-    width: 30px;
-  }
-  .text-container p {
-    font-size: 15px;
-  }
-  .category-wrapper h1 {
-    font-size: 20px;
-  }
   .info svg {
-    width: 30px;
-    height: 30px;
-    padding: 3px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
   }
   .info h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
-  .info span {
-    font-size: 9px;
+}
+@media screen and (max-width: 880px) {
+  .category img {
+    width: 200px;
+    height: 180px;
   }
 }
 @media screen and (max-width: 430px) {
+  .help {
+    display: none;
+  }
+  .avatar {
+    width: 20px;
+    height: 20px;
+  }
   .top-left {
-    padding: 15px 20px;
+    padding: 40px 20px;
   }
-  .top-left p {
-    font-size: 8px;
-  }
+
   .image-btn {
-    font-size: 8px;
-    bottom: 5%;
-  }
-  /* .slider {
-    height: 200px;
-  } */
-}
-@media screen and (max-width: 336px) {
-  .top-left {
-    padding: 10px 15px;
-  }
-  .top-left p {
-    font-size: 8px;
-  }
-  .image-btn {
-    font-size: 5px;
+    font-size: 10px;
+    padding: 15px;
   }
   .slider__nav-button {
     height: 15px;
     width: 15px;
   }
-  .category img {
-    width: 190px;
-    height: 160px;
+  .info svg {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+  .info h3 {
+    font-size: 10px;
+  }
+  .info span {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 383px) {
+  .top-left {
+    padding: 40px 20px;
+    width: 50%;
+  }
+
+  .image-btn {
+    font-size: 10px;
+    padding: 15px;
   }
 }

@@ -1,5 +1,13 @@
-// get all dropdown buttons
 const dropdownBtns = document.querySelectorAll(".dropbtn");
+const icon = document.querySelector(".icon");
+const myLinks = document.querySelector("#myLinks");
+let slides = document.getElementsByClassName("slider__slide");
+let navlinks = document.getElementsByClassName("slider__navlink");
+const burgerButton = document.querySelector(".icon");
+const burgerLinks = document.querySelector(".burger-links");
+const dropdownButtons = document.querySelectorAll(".dropbtn-s");
+const dropdownContents = document.querySelectorAll(".dropdown-content-s");
+let currentSlide = 0;
 
 // add click event listener to each dropdown button
 dropdownBtns.forEach((btn) => {
@@ -47,9 +55,6 @@ document.addEventListener("click", (event) => {
 });
 
 // carousel
-let slides = document.getElementsByClassName("slider__slide");
-let navlinks = document.getElementsByClassName("slider__navlink");
-let currentSlide = 0;
 
 document.getElementById("nav-button--next").addEventListener("click", () => {
   changeSlide(currentSlide + 1);
@@ -79,5 +84,25 @@ document.querySelectorAll(".slider__navlink").forEach((bullet, bulletIndex) => {
     if (currentSlide !== bulletIndex) {
       changeSlide(bulletIndex);
     }
+  });
+});
+
+icon.addEventListener("click", () => {
+  if (myLinks.style.display === "block") {
+    myLinks.style.display = "none";
+  } else {
+    myLinks.style.display = "block";
+  }
+});
+
+// Add event listener to burger button
+burgerButton.addEventListener("click", () => {
+  burgerLinks.classList.toggle("active");
+});
+
+// Add event listeners to dropdown buttons
+dropdownButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    dropdownContents[index].classList.toggle("active");
   });
 });
